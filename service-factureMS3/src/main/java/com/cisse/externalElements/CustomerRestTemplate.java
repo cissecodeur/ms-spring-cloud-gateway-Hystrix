@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name = "SERVICE-CUSTOMERMS1")
 public interface CustomerRestTemplate {
 	
-	//Ce customerDto ira communiquer avec le Customer du service Externe
+	//Ce customer ira communiquer avec le Customer du service Externe
 	// Feign est utilisé pour consommer un service externe,il reagit comme restTemplate
 	
 	@GetMapping("/customers/{id}")

@@ -35,7 +35,7 @@ public class Facture implements Serializable {
 	private Long id;
 	private Date dateFacture;
 	
-	@JsonProperty(access = Access.WRITE_ONLY)
+	@JsonProperty(access = Access.WRITE_ONLY)// ne pas afficher dans le retour json
 	private Long idCustomer;
 	@Transient //Pour en pas persiter cette attribut en base
 	private Customer customer;
