@@ -2,7 +2,7 @@
 
 Cette application montre comment mettre en place une architecture Hautement distribuée en utilisant des Microservices.
 
-- Nous avons 3 microservices qui communiquent entre elle via un systemes de communication RestTemplate avec (Feign-Client).
+- Nous avons 3 microservices qui communiquent entre elle via un systemes de communication RestTemplate avec (OpenFeign).
 
 - Toutes les identités de nos microservices sont gerés dans un microservices servant d'annuaire et de load-Balancer (service-eurekaEnregistrementMs) geré avec Eureka-server.
 
